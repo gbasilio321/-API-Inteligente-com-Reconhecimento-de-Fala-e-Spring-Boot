@@ -10,6 +10,13 @@ salva ou consulta transações e responde em áudio.
 2. Defina a chave: `$env:OPENAI_API_KEY="..."`
 3. Na pasta 05-spring-ai: `.\gradlew.bat bootRun`
 
+## Créditos
+Este projeto é baseado no repositório de aprendizado do expert **Thiago Poiani** (DIO), que construiu a arquitetura, a integração com Spring AI e o fluxo de voz.
+Repositório original: https://github.com/digitalinnovationone/dio-spring-boot-learning-track
+Projeto base: [05-spring-ai](https://github.com/digitalinnovationone/dio-spring-boot-learning-track/tree/main/05-spring-ai)
+
+A minha contribuição neste desafio foi a melhoria descrita abaixo (validação no domínio e testes unitários).
+
 ## Melhoria implementada
 Validação no domínio (`Transaction`), com testes unitários.
 
