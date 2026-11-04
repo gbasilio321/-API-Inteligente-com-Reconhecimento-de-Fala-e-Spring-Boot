@@ -33,7 +33,7 @@ Java, Spring Boot, Spring AI, OpenAI, JPA, MySQL, Gradle, JUnit, Docker
 ## Como testar
 `.\gradlew.bat test --tests "*TransactionTest"`
 
-![Resultado dos testes](public/capturaDeTela.png)
+![Resultado dos testes](05-spring-ai/public/capturaDeTela.png)
 
 ## O que aprendi
 Aprendi que o projeto separa o código em camadas (domínio, aplicação e infraestrutura) e que a IA chama os mesmos casos de uso que o REST, sem pular essas camadas.
